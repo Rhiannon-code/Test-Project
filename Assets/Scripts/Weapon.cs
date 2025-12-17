@@ -4,27 +4,21 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
-
 public Camera playerCamera;
-
 //Shooting
 public bool isShooting, readyToShoot;
 bool allowReset = true;
-public float shootingDelay= 2;
-
+public float shootingDelay= 2f;
 //Burst
 public int bulletsPerBurst = 3;
 public int burstBulletsLeft;
-
 //Spread
 public float spreadIntensity;
-
 //Bullet
 public GameObject bulletPrefab;
 public Transform bulletSpawn;
 public float bulletVelocity = 30;
 public float bulletPrefabLifeTime = 3f;
-
 //Fire Mode Selector
 public enum ShootingMode
     {
@@ -33,15 +27,11 @@ public enum ShootingMode
         Auto
     }
     public ShootingMode currentShootingMode;
-
     private void Awake()
     {
         readyToShoot = true;
         burstBulletsLeft = bulletsPerBurst;
     }
-
-
-
     void Update()
     {
        if (currentShootingMode == ShootingMode.Auto)
@@ -59,28 +49,19 @@ public enum ShootingMode
             burstBulletsLeft = bulletsPerBurst;
             FireWeapon();
         }
-
     }
-
     private void FireWeapon()
     {
-        
         readyToShoot = false;
-
         Vector3 shootingDirection = CalculateDirectionAndSpread().normalized;
-
         //Insantiate the Bullet
         GameObject bullet = Instantiate(bulletPrefab, bulletSpawn.position, Quaternion.identity);
-
         //Point Bullet Towards Shooting Direction
         bullet.transform.forward = shootingDirection;
-
         //Shoot Bullet
-        bullet.GetComponent<Rigidbody>().AddForce(shootingDirection* bulletVelocity, ForceMode.Impulse);
-        
+        bullet.GetComponent<Rigidbody>().AddForce(shootingDirection * bulletVelocity, ForceMode.Impulse);
         //Destroy Bullet After Some Time
         StartCoroutine(DestroyBulletAfterTime(bullet, bulletPrefabLifeTime));
-
         //Check if we are done shooting
         if (allowReset)
         {
@@ -88,7 +69,6 @@ public enum ShootingMode
             Invoke("ResetShot", shootingDelay);
             allowReset = false;
         }
-
         //Check if we are in Burst Mode
         if (currentShootingMode == ShootingMode.Burst && burstBulletsLeft > 1)
         {
@@ -96,7 +76,6 @@ public enum ShootingMode
             Invoke("FireWeapon", shootingDelay); 
         }
     }
-
     private void ResetShot()
     {
         readyToShoot = true;
@@ -117,16 +96,12 @@ public enum ShootingMode
             //Some far away point
             targetPoint = ray.GetPoint(1000); 
         }
-
         Vector3 direction = targetPoint - bulletSpawn.position;
-
         float x = UnityEngine.Random.Range(-spreadIntensity, spreadIntensity);
         float y = UnityEngine.Random.Range(-spreadIntensity, spreadIntensity);
-
         //Return the shooting direction and spread
         return direction + new Vector3(x, y, 0);
     }
-
     private IEnumerator DestroyBulletAfterTime(GameObject bullet, float delay)
     {
         yield return new WaitForSeconds(delay);
