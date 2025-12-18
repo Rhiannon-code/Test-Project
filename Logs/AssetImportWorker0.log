@@ -8,25 +8,25 @@ Kernel version:          6.18.1-2-cachyos
 Architecture:            x86_64
 Window Protocol:         Wayland (XWayland)
 Available memory:        32001 MB
-Date:                    2025-12-17T22:08:45Z
+Date:                    2025-12-18T23:43:52Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rhiannon" at "2025-12-17T22:08:45.024535Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rhiannon" at "2025-12-18T23:43:52.00516Z"
 [SignatureVerifier] Application signature verification not supported on this platform.
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.17.4'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-rhiannon"
 [Licensing::IpcConnector] LicenseClient-rhiannon channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rhiannon-6000.2.14" at "2025-12-17T22:08:45.025422Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rhiannon-6000.2.14" at "2025-12-18T23:43:52.006028Z"
 [SignatureVerifier] Application signature verification not supported on this platform.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              5f769d4cd79f4ced81c39be1d9edaf11
-  Correlation Id:          d2bba409dc0928cac877ceed057c13d8
-  External correlation Id: 5137953908586849232
+  Session Id:              7a31ac9c977e49f989a6507907332cb0
+  Correlation Id:          42c733a0f0331b7fa5a5fc59f40799c7
+  External correlation Id: 7835366846415560069
   Machine Id:              uWgANzsd+Z7wjXEsI+lt9PoilnA=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-rhiannon-6000.2.14" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rhiannon-6000.2.14-notifications" at "2025-12-17T22:08:45.02765Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rhiannon-6000.2.14-notifications" at "2025-12-18T23:43:52.008329Z"
 [Licensing::Module] Licensing Background thread has ended after 0.00s
 Selected window backend: (null) 
 Desktop is 7280 x 1440 @ 60 Hz
@@ -44,7 +44,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-37621
+41609
 -licensingIpc
 LicenseClient-rhiannon
 -job-worker-count
@@ -55,9 +55,9 @@ LicenseClient-rhiannon
 1
 Successfully changed project path to: /home/rhiannon/Test-Project
 
-(Unity:101229): Gtk-CRITICAL **: 09:08:45.487: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:293040): Gtk-CRITICAL **: 10:43:52.483: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
 
-(Unity:101229): Gtk-CRITICAL **: 09:08:45.491: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:293040): Gtk-CRITICAL **: 10:43:52.487: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
 /home/rhiannon/Test-Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-allocator-temp-initial-block-size-main=262144"
@@ -94,16 +94,16 @@ Successfully changed project path to: /home/rhiannon/Test-Project
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140309541764224]  Target information:
+Player connection [139839873858688]  Target information:
 
-Player connection [140309541764224]  * "[IP] 192.168.1.16 [Port] 0 [Flags] 2 [Guid] 2242662747 [EditorId] 2242662747 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.16) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [139839873858688]  * "[IP] 192.168.1.16 [Port] 0 [Flags] 2 [Guid] 716785716 [EditorId] 716785716 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.16) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [140309541764224]  * "[IP] 172.18.0.1 [Port] 0 [Flags] 2 [Guid] 2242662747 [EditorId] 2242662747 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.16) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [139839873858688]  * "[IP] 172.18.0.1 [Port] 0 [Flags] 2 [Guid] 716785716 [EditorId] 716785716 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.16) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [140309541764224]  * "[IP] 172.17.0.1 [Port] 0 [Flags] 2 [Guid] 2242662747 [EditorId] 2242662747 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.16) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [139839873858688]  * "[IP] 172.17.0.1 [Port] 0 [Flags] 2 [Guid] 716785716 [EditorId] 716785716 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.16) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [140309541764224] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [140309541764224] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [139839873858688] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [139839873858688] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -115,7 +115,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.14 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.14f1 (589824c1fc31)
 [Subsystems] Discovering subsystems at path /home/rhiannon/Unity/Hub/Editor/6000.2.14f1/Editor/Data/Resources/UnitySubsystems
@@ -125,7 +125,7 @@ GfxDevice: creating device client; kGfxThreadingModeDirect
 GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
 Renderer: AMD Radeon RX 6950 XT (radeonsi, navi21, LLVM 21.1.6, DRM 3.64, 6.18.1-2-cachyos)
 Vendor:   AMD
-Version:  4.6 (Core Profile) Mesa 25.3.1-arch1.3
+Version:  4.6 (Core Profile) Mesa 25.3.2-arch1.2
 GLES:     0
  GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_framebuffer_multisample_advanced GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_dist
 ance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel
@@ -134,13 +134,13 @@ clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessel
 _attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL
 _EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_tex
 ture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1999227344
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -2020561456
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 Initialize mono
 Mono path[0] = '/home/rhiannon/Unity/Hub/Editor/6000.2.14f1/Editor/Data/Managed'
 Mono path[1] = '/home/rhiannon/Unity/Hub/Editor/6000.2.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/rhiannon/Unity/Hub/Editor/6000.2.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56229
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/rhiannon/Unity/Hub/Editor/6000.2.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -149,40 +149,40 @@ Platform support module is not available: /home/rhiannon/Unity/Hub/Editor/6000.2
 Trying to register platform support module: /home/rhiannon/Unity/Hub/Editor/6000.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll (that doesn't exist). Retrying without overrides.
 Platform support module is not available: /home/rhiannon/Unity/Hub/Editor/6000.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /home/rhiannon/Unity/Hub/Editor/6000.2.14f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.001603 seconds.
-- Loaded All Assemblies, in  0.220 seconds
+Registered in 0.001453 seconds.
+- Loaded All Assemblies, in  0.245 seconds
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.318 seconds
-Domain Reload Profiling: 539ms
-	BeginReloadAssembly (44ms)
+- Finished resetting the current domain, in  0.309 seconds
+Domain Reload Profiling: 554ms
+	BeginReloadAssembly (49ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (26ms)
+	RebuildCommonClasses (28ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (106ms)
-		LoadAssemblies (44ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (123ms)
+		LoadAssemblies (48ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (105ms)
-			TypeCache.Refresh (104ms)
-				TypeCache.ScanAssembly (96ms)
+		AnalyzeDomain (121ms)
+			TypeCache.Refresh (120ms)
+				TypeCache.ScanAssembly (111ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (319ms)
+	FinalizeReload (309ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (285ms)
+		SetupLoadedEditorAssemblies (276ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (80ms)
-			SetLoadedEditorAssemblies (12ms)
-			BeforeProcessingInitializeOnLoad (56ms)
+			InitializePlatformSupportModulesInManaged (82ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (57ms)
 			ProcessInitializeOnLoadAttributes (97ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -197,8 +197,8 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.458 seconds
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+- Loaded All Assemblies, in  0.560 seconds
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -206,203 +206,45 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.527 seconds
-Domain Reload Profiling: 983ms
-	BeginReloadAssembly (86ms)
+- Finished resetting the current domain, in  0.548 seconds
+Domain Reload Profiling: 1106ms
+	BeginReloadAssembly (104ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (311ms)
-		LoadAssemblies (158ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (379ms)
+		LoadAssemblies (177ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (185ms)
-			TypeCache.Refresh (143ms)
-				TypeCache.ScanAssembly (134ms)
-			BuildScriptInfoCaches (34ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (528ms)
+		AnalyzeDomain (238ms)
+			TypeCache.Refresh (175ms)
+				TypeCache.ScanAssembly (163ms)
+			BuildScriptInfoCaches (49ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (548ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (406ms)
+		SetupLoadedEditorAssemblies (413ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (25ms)
+			InitializePlatformSupportModulesInManaged (28ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (92ms)
-			ProcessInitializeOnLoadAttributes (245ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (246ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (3ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 AutoLocale: current locale expects 'C' but got 'en_AU.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6388 unused Assets / (6.5 MB). Loaded Objects now: 7120.
-Memory consumption went from 133.6 MB to 127.0 MB.
-Total: 7.514052 ms (FindLiveObjects: 0.529667 ms CreateObjectMapping: 0.357308 ms MarkObjects: 4.628367 ms  DeleteObjects: 1.998120 ms)
+Unloading 6393 unused Assets / (7.1 MB). Loaded Objects now: 7128.
+Memory consumption went from 132.2 MB to 125.1 MB.
+Total: 10.016425 ms (FindLiveObjects: 0.871485 ms CreateObjectMapping: 1.214524 ms MarkObjects: 5.321391 ms  DeleteObjects: 2.608225 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 2719.033098 seconds.
-  path: Assets/Art/Knob.png
-  artifactKey: Guid(6aec679b614b496b38b0dc80ea558064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Knob.png using Guid(6aec679b614b496b38b0dc80ea558064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08bee2c91d9f12a72ca34b90369c975e') in 0.037629012 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.346246 seconds.
-  path: Assets/UnityTechnologies/EffectExamples/FireExplosionEffects/Textures/DebrisParticleSheet.png
-  artifactKey: Guid(af1f1b45fa6b5e64894c04ceb8a592f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/EffectExamples/FireExplosionEffects/Textures/DebrisParticleSheet.png using Guid(af1f1b45fa6b5e64894c04ceb8a592f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c4d341180d9dffabb6cc61a3e49d2e2') in 0.016226569 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/UnityTechnologies/EffectExamples/Shared/Textures/DustPuffSmallParticleSheet.png
-  artifactKey: Guid(1c1f5fdffb8c5a944a978e8debb8fdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/EffectExamples/Shared/Textures/DustPuffSmallParticleSheet.png using Guid(1c1f5fdffb8c5a944a978e8debb8fdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '273a938c84d53f44349545c76e872663') in 0.008147699 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.255104 seconds.
-  path: Assets/UnityTechnologies/EffectExamples/FireExplosionEffects/Prefabs/BigExplosionEffect.prefab
-  artifactKey: Guid(acf39d9f4addf294d93fa56fa373961b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/EffectExamples/FireExplosionEffects/Prefabs/BigExplosionEffect.prefab using Guid(acf39d9f4addf294d93fa56fa373961b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ab1578bd0080ef4bcd55530cb9b518f') in 0.34147578 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 49
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/UnityTechnologies/EffectExamples/WeaponEffects/Textures/BloodStreak.mat
-  artifactKey: Guid(2f03a6f5f76f67c45ae05e606f7ca2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/EffectExamples/WeaponEffects/Textures/BloodStreak.mat using Guid(2f03a6f5f76f67c45ae05e606f7ca2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3bb9b1bc4a5ed6985a29b4a84c9bcb3a') in 0.034959475 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/UnityTechnologies/EffectExamples/WeaponEffects/Prefabs/BulletImpactStoneEffect.prefab
-  artifactKey: Guid(4edabb1c0dde62743b137378c7d22980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/EffectExamples/WeaponEffects/Prefabs/BulletImpactStoneEffect.prefab using Guid(4edabb1c0dde62743b137378c7d22980) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b4b726605e088ee0463ceec6281b7ba') in 0.007649641 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/UnityTechnologies/EffectExamples/WaterEffects/Materials/StormCloudParticle.mat
-  artifactKey: Guid(6ed8795ca1a3b714ea3f3d7a204afb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/EffectExamples/WaterEffects/Materials/StormCloudParticle.mat using Guid(6ed8795ca1a3b714ea3f3d7a204afb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d386d15e858e05d27fac4112abbd7e5') in 0.007362183 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/UnityTechnologies/EffectExamples/Blood/Prefabs/BloodStreamEffect.prefab
-  artifactKey: Guid(a3768c8a9d1b90d4bb0eb0e4bdbe730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/EffectExamples/Blood/Prefabs/BloodStreamEffect.prefab using Guid(a3768c8a9d1b90d4bb0eb0e4bdbe730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '570de3be2a67d7eea2bcd997c2bc0819') in 0.006899395 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/UnityTechnologies/EffectExamples/WeaponEffects/Textures/TinyStonesNormalsSheet.tif
-  artifactKey: Guid(a00b2df6dc199854ba60af0c001a51b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/EffectExamples/WeaponEffects/Textures/TinyStonesNormalsSheet.tif using Guid(a00b2df6dc199854ba60af0c001a51b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3351905aa1209159249b11a9a8eb64d2') in 0.006798706 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/UnityTechnologies/EffectExamples/Shared/Prefabs/Stone.prefab
-  artifactKey: Guid(6b4eed762f985a04bbc740b9da12e38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/EffectExamples/Shared/Prefabs/Stone.prefab using Guid(6b4eed762f985a04bbc740b9da12e38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db9823026a83d8624367cb9714d565b7') in 0.004561597 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/UnityTechnologies/EffectExamples/Blood/Materials/BloodSplatParticle.mat
-  artifactKey: Guid(3ea2e59d181ffce4e97d5d1d07a22c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/EffectExamples/Blood/Materials/BloodSplatParticle.mat using Guid(3ea2e59d181ffce4e97d5d1d07a22c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f8d11c12acc8b7b0db6aadb9495f829') in 0.003607151 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/UnityTechnologies/EffectExamples/WeaponEffects/Materials/DustPuffParticle.mat
-  artifactKey: Guid(1402721190994cd46b64bf7cba78f5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/EffectExamples/WeaponEffects/Materials/DustPuffParticle.mat using Guid(1402721190994cd46b64bf7cba78f5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '387be2ffdc34025c57883021407472d4') in 0.003569492 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/UnityTechnologies/EffectExamples/WeaponEffects/Materials/TinyStonesParticle.mat
-  artifactKey: Guid(4ac7c4f70dacbc742a33d842cebc2157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/EffectExamples/WeaponEffects/Materials/TinyStonesParticle.mat using Guid(4ac7c4f70dacbc742a33d842cebc2157) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5eece2f0e4db9c43a590ffd68b4bf384') in 0.003748132 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/UnityTechnologies/EffectExamples/Blood/Textures/BloodStreamAlbedo.tif
-  artifactKey: Guid(1a55072e908ebe74e962a97efbc17416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/EffectExamples/Blood/Textures/BloodStreamAlbedo.tif using Guid(1a55072e908ebe74e962a97efbc17416) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ad13b3f7ab525a00c6d9f7d08b67144') in 0.003186954 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/UnityTechnologies/EffectExamples/Shared/PhysicsMaterials/Stone.physicMaterial
-  artifactKey: Guid(7509f6c6d640a774f9dfaa8af8658a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/EffectExamples/Shared/PhysicsMaterials/Stone.physicMaterial using Guid(7509f6c6d640a774f9dfaa8af8658a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32f898e9749e967847bc4ec21c7e87ad') in 0.000631707 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/UnityTechnologies/EffectExamples/Shared/Materials/StoneSurface.mat
-  artifactKey: Guid(3eb079016c4106b41bc3f19de570f770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/EffectExamples/Shared/Materials/StoneSurface.mat using Guid(3eb079016c4106b41bc3f19de570f770) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77955d5f0a7adc4ff0920108f0153f7d') in 0.004614747 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/UnityTechnologies/EffectExamples/Blood/Textures/BloodPoolNormals.tif
-  artifactKey: Guid(969a5ea5264ae2e4cb261f0dfbdb7877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/EffectExamples/Blood/Textures/BloodPoolNormals.tif using Guid(969a5ea5264ae2e4cb261f0dfbdb7877) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bf2c3d6ca08fcc02c0a42f779628e10') in 0.003095114 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/UnityTechnologies/EffectExamples/Shared/Textures/StoneAlbedo.tif
-  artifactKey: Guid(d6971144598309840aa5627e0797e545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/EffectExamples/Shared/Textures/StoneAlbedo.tif using Guid(d6971144598309840aa5627e0797e545) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e9c11dca5ca5df67248944419233f69') in 0.003410563 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.403761 seconds.
-  path: Assets/UnityTechnologies/EffectExamples/Shared/Prefabs/Stone.prefab
-  artifactKey: Guid(6b4eed762f985a04bbc740b9da12e38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/EffectExamples/Shared/Prefabs/Stone.prefab using Guid(6b4eed762f985a04bbc740b9da12e38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e953e5806303f5248475e386e3d8034a') in 0.832319782 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-
-SDL leaked 2 allocations
-Internal: Possible leak. All render target surfaces should be removed from IdMap when destructed using RenderTargetMap::Remove(RenderSurfaceBase* rs).

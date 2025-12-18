@@ -16,6 +16,14 @@ public class Bullet : MonoBehaviour
             CreateBulletImpactEffect(objectWeHit);
             Destroy(gameObject);
         }
+        if(objectWeHit.gameObject.CompareTag("BeerBottle"))
+        {
+            print("hit a beer bottle");
+            
+            objectWeHit.gameObject.GetComponent<BeerBottle>().Shatter();
+            
+        }
+
     }
     void CreateBulletImpactEffect(Collision objectWeHit)
     {

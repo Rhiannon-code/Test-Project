@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
-public Camera playerCamera;
 //Shooting
 public bool isShooting, readyToShoot;
 bool allowReset = true;
@@ -19,6 +18,10 @@ public GameObject bulletPrefab;
 public Transform bulletSpawn;
 public float bulletVelocity = 30;
 public float bulletPrefabLifeTime = 3f;
+
+public GameObject muzzleEffect;
+private Animator animator;
+
 //Fire Mode Selector
 public enum ShootingMode
     {
@@ -31,6 +34,7 @@ public enum ShootingMode
     {
         readyToShoot = true;
         burstBulletsLeft = bulletsPerBurst;
+       animator = GetComponent<Animator>(); 
     }
     void Update()
     {
@@ -52,6 +56,13 @@ public enum ShootingMode
     }
     private void FireWeapon()
     {
+        //Show Muzzle Effect
+        muzzleEffect.GetComponent<ParticleSystem>().Play();
+        //Play Recoil Animation
+        animator.SetTrigger("RECOIL");
+        //Play Shooting Sound
+        SoundManager.Instance.shootingSoundPistol.Play();
+
         readyToShoot = false;
         Vector3 shootingDirection = CalculateDirectionAndSpread().normalized;
         //Insantiate the Bullet
@@ -83,7 +94,7 @@ public enum ShootingMode
     }
     public Vector3 CalculateDirectionAndSpread()
     {
-        Ray ray = playerCamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
+        Ray ray = Camera.main.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
         RaycastHit hit;
         Vector3 targetPoint;  
         if (Physics.Raycast(ray, out hit))
