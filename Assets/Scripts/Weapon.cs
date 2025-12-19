@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using TMPro;
 using UnityEngine;
 
 public class Weapon : MonoBehaviour
@@ -22,6 +23,18 @@ public float bulletPrefabLifeTime = 3f;
 public GameObject muzzleEffect;
 private Animator animator;
 
+//Reloading
+public float reloadTime;
+public int magazineSize, bulletsLeft;
+public bool isReloading;
+
+public enum WeaponModel
+    {
+        Pistol,
+        Rifle
+    }
+    public WeaponModel thisWeaponModel;
+
 //Fire Mode Selector
 public enum ShootingMode
     {
@@ -32,12 +45,17 @@ public enum ShootingMode
     public ShootingMode currentShootingMode;
     private void Awake()
     {
-        readyToShoot = true;
-        burstBulletsLeft = bulletsPerBurst;
+       readyToShoot = true;
+       burstBulletsLeft = bulletsPerBurst;
        animator = GetComponent<Animator>(); 
+       bulletsLeft = magazineSize;
     }
     void Update()
     {
+       if (bulletsLeft ==0 && isShooting)
+        {
+            SoundManager.Instance.emptyMagazineSoundPistol.Play();
+        }
        if (currentShootingMode == ShootingMode.Auto)
         {
             //Hold Left Mouse Button
@@ -48,20 +66,35 @@ public enum ShootingMode
             //Press Left Mouse Button
             isShooting = Input.GetKeyDown(KeyCode.Mouse0);
         }
-        if (readyToShoot && isShooting)
+        if (Input.GetKeyDown(KeyCode.R) && bulletsLeft < magazineSize && !isReloading)
+        {
+            ReloadWeapon();
+        }
+        //Auomatic Reload When Out of Bullets
+        if (readyToShoot && !isShooting && isReloading == false && bulletsLeft <= 0)
+        {
+            //ReloadWeapon();
+        }
+        if (readyToShoot && isShooting && bulletsLeft > 0)
         {
             burstBulletsLeft = bulletsPerBurst;
             FireWeapon();
         }
+        if (AmmoManager.Instance.ammoDisplay != null)
+        {
+            AmmoManager.Instance.ammoDisplay.text = $"{bulletsLeft/bulletsPerBurst}/{magazineSize/bulletsPerBurst}";
+        }
     }
     private void FireWeapon()
     {
+        //Reduce Bullets
+        bulletsLeft--;
         //Show Muzzle Effect
         muzzleEffect.GetComponent<ParticleSystem>().Play();
         //Play Recoil Animation
         animator.SetTrigger("RECOIL");
         //Play Shooting Sound
-        SoundManager.Instance.shootingSoundPistol.Play();
+        SoundManager.Instance.PlayShootingSound(thisWeaponModel);
 
         readyToShoot = false;
         Vector3 shootingDirection = CalculateDirectionAndSpread().normalized;
@@ -86,6 +119,20 @@ public enum ShootingMode
             burstBulletsLeft--;
             Invoke("FireWeapon", shootingDelay); 
         }
+    }
+    
+    private void ReloadWeapon()
+    {
+        SoundManager.Instance.PlayReloadingSound(thisWeaponModel);
+        animator.SetTrigger("RELOAD");
+        isReloading = true;
+        Invoke("ReloadingCompleted", reloadTime);
+    }
+
+    private void ReloadingCompleted()
+    {
+        bulletsLeft = magazineSize;
+        isReloading = false;
     }
     private void ResetShot()
     {
