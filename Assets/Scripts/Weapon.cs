@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
+
+public bool isActiveWeapon;
 //Shooting
 public bool isShooting, readyToShoot;
 bool allowReset = true;
@@ -21,12 +23,15 @@ public float bulletVelocity = 30;
 public float bulletPrefabLifeTime = 3f;
 
 public GameObject muzzleEffect;
-private Animator animator;
+internal Animator animator;
 
 //Reloading
 public float reloadTime;
 public int magazineSize, bulletsLeft;
 public bool isReloading;
+
+public Vector3 spawnPosition;
+public Vector3 spawnRotation;
 
 public enum WeaponModel
     {
@@ -52,6 +57,8 @@ public enum ShootingMode
     }
     void Update()
     {
+        if (isActiveWeapon)
+        {
        if (bulletsLeft ==0 && isShooting)
         {
             SoundManager.Instance.emptyMagazineSoundPistol.Play();
@@ -83,6 +90,7 @@ public enum ShootingMode
         if (AmmoManager.Instance.ammoDisplay != null)
         {
             AmmoManager.Instance.ammoDisplay.text = $"{bulletsLeft/bulletsPerBurst}/{magazineSize/bulletsPerBurst}";
+        }
         }
     }
     private void FireWeapon()
