@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6627594676735772178}
   - component: {fileID: 783776176863083516}
   - component: {fileID: 3002219156200210139}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MuzzleFlashEffect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4800,7 +4800,7 @@ GameObject:
   - component: {fileID: 2142289418975992370}
   - component: {fileID: 6717021031110390328}
   - component: {fileID: 6223548818162010526}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4891,7 +4891,7 @@ GameObject:
   - component: {fileID: 5061599764866033507}
   - component: {fileID: 839004611935499683}
   - component: {fileID: 5333231553342979428}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Rifle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4907,7 +4907,7 @@ Transform:
   m_GameObject: {fileID: 4665945715682660815}
   serializedVersion: 2
   m_LocalRotation: {x: 0.27059805, y: 0.27059805, z: 0.6532815, w: 0.6532815}
-  m_LocalPosition: {x: -1.77, y: 1.8, z: 4.57}
+  m_LocalPosition: {x: -9.554, y: 3.32, z: 1.551}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4948,7 +4948,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70ff5d6bf3cd499e3a3dab53125fd4dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Weapon
-  isActiveWepon: 0
+  isActiveWeapon: 0
   isShooting: 0
   readyToShoot: 0
   shootingDelay: 0.15
@@ -5019,7 +5019,7 @@ GameObject:
   - component: {fileID: 3513329113525579785}
   - component: {fileID: 3409795924188869450}
   - component: {fileID: 9220083594989915234}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5106,7 +5106,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 351351420136204387}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BulletSpawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5140,7 +5140,7 @@ GameObject:
   - component: {fileID: 996243966235011366}
   - component: {fileID: 3749620549513912603}
   - component: {fileID: 1727271263065838223}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bolt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5229,7 +5229,7 @@ GameObject:
   - component: {fileID: 3979880647315612277}
   - component: {fileID: 5817895224334586483}
   - component: {fileID: 2788347142685838618}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: AK74
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7948252430774045748}
   - component: {fileID: 2433237239013566516}
   - component: {fileID: 396681719246088900}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Slide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,7 +100,7 @@ GameObject:
   - component: {fileID: 3747620915273416403}
   - component: {fileID: 2732025353366395155}
   - component: {fileID: 2715336905396074055}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -187,7 +187,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6017702984079589058}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BulletSpawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -221,7 +221,7 @@ GameObject:
   - component: {fileID: 4555856947593121872}
   - component: {fileID: 8533073083508043674}
   - component: {fileID: 1298175693691700202}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hammer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -310,7 +310,7 @@ GameObject:
   - component: {fileID: 8442570601449281289}
   - component: {fileID: 5608562870081201500}
   - component: {fileID: 2802390991443475976}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: M1911
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -403,7 +403,7 @@ GameObject:
   - component: {fileID: 7430041236764214316}
   - component: {fileID: 2482887477902808543}
   - component: {fileID: 1751113134402201503}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MuzzleFlashEffect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5192,7 +5192,7 @@ GameObject:
   - component: {fileID: 2577408642333886720}
   - component: {fileID: 3616055698635644254}
   - component: {fileID: 5235750926680675046}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Magazin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5283,7 +5283,7 @@ GameObject:
   - component: {fileID: 8302287977714290342}
   - component: {fileID: 8541776918873571112}
   - component: {fileID: 1306642158507339595}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pistol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5340,7 +5340,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70ff5d6bf3cd499e3a3dab53125fd4dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Weapon
-  isActiveWepon: 0
+  isActiveWeapon: 0
   isShooting: 0
   readyToShoot: 0
   shootingDelay: 0.3

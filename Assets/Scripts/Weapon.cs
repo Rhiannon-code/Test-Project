@@ -59,7 +59,8 @@ public enum ShootingMode
     {
         if (isActiveWeapon)
         {
-       if (bulletsLeft ==0 && isShooting)
+        GetComponent<Outline>().enabled = false;
+        if (bulletsLeft ==0 && isShooting)
         {
             SoundManager.Instance.emptyMagazineSoundPistol.Play();
         }
@@ -87,10 +88,7 @@ public enum ShootingMode
             burstBulletsLeft = bulletsPerBurst;
             FireWeapon();
         }
-        if (AmmoManager.Instance.ammoDisplay != null)
-        {
-            AmmoManager.Instance.ammoDisplay.text = $"{bulletsLeft/bulletsPerBurst}/{magazineSize/bulletsPerBurst}";
-        }
+       
         }
     }
     private void FireWeapon()
