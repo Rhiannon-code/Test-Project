@@ -434,7 +434,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 221156980}
-  - component: {fileID: 230422242}
   - component: {fileID: 1349759069}
   - component: {fileID: 1349759068}
   - component: {fileID: 1349759067}
@@ -552,7 +551,7 @@ Transform:
   m_GameObject: {fileID: 220725824}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.70710677, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 2.109, y: 1.731, z: 4.42}
+  m_LocalPosition: {x: 4, y: 1.731, z: 4.42}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -560,28 +559,6 @@ Transform:
   - {fileID: 221120912}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!95 &230422242
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 220725824}
-  m_Enabled: 0
-  m_Avatar: {fileID: 9000000, guid: 3fe47bcef97348f4e8fbc0553a357aeb, type: 3}
-  m_Controller: {fileID: 9100000, guid: 755db8c220f0dab418ccd01dbdc3057d, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &256372567 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 554483156738784462, guid: 5b290b0c05b75a5dcb55a6ef5a8771ef, type: 3}
@@ -2409,7 +2386,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 220725824}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
@@ -2433,7 +2410,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   ammoAmount: 200
-  ammoType: 0
+  ammoType: 1
 --- !u!65 &1349759069
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4462,7 +4439,12 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 98608748}
+  - {fileID: 345047003}
+  - {fileID: 1604541061}
+  - {fileID: 1416959879}
   - {fileID: 495578265}
+  - {fileID: 68905914}
   - {fileID: 441997015}
   - {fileID: 2017326298}
   - {fileID: 1314550802}
@@ -4471,14 +4453,9 @@ SceneRoots:
   - {fileID: 1373819624}
   - {fileID: 1625492371}
   - {fileID: 1793121241}
-  - {fileID: 68905914}
   - {fileID: 906820502}
-  - {fileID: 1416959879}
   - {fileID: 1756258109}
-  - {fileID: 98608748}
   - {fileID: 1572092385}
-  - {fileID: 345047003}
-  - {fileID: 1604541061}
   - {fileID: 1546615730}
   - {fileID: 1770952726}
   - {fileID: 221156980}

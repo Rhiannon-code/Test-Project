@@ -80,8 +80,6 @@ public class WeaponManager : MonoBehaviour
             case AmmoBox.AmmoType.RifleAmmo:
                 totalRifleAmmo += ammo.ammoAmount;
                 break;
-            default:
-                break;
         }
     }
         
