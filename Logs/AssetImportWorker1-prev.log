@@ -8,18 +8,18 @@ Kernel version:          6.18.2-2-cachyos
 Architecture:            x86_64
 Window Protocol:         Wayland (XWayland)
 Available memory:        32001 MB
-Date:                    2025-12-20T02:05:42Z
+Date:                    2025-12-20T23:02:07Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rhiannon" at "2025-12-20T02:05:42.745239Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rhiannon" at "2025-12-20T23:02:07.900668Z"
 [SignatureVerifier] Application signature verification not supported on this platform.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              d96da9a927ae4cd5940cd44d60a22a53
-  Correlation Id:          9f61c1f695b7385a91a349501e0c719e
-  External correlation Id: 4368398236539788746
+  Session Id:              84965ba80a404b0395dae2af4e613a48
+  Correlation Id:          6e007487a9ebe9aa2dda8de345523249
+  External correlation Id: 6279172676443041559
   Machine Id:              uWgANzsd+Z7wjXEsI+lt9PoilnA=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-rhiannon" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rhiannon-notifications" at "2025-12-20T02:05:42.746267Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rhiannon-notifications" at "2025-12-20T23:02:07.901217Z"
 [Licensing::Module] Licensing Background thread has ended after 0.00s
 Selected window backend: (null) 
 Desktop is 7280 x 1440 @ 60 Hz
@@ -37,7 +37,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-38685
+42005
 -licensingIpc
 LicenseClient-rhiannon
 -job-worker-count
@@ -48,9 +48,9 @@ LicenseClient-rhiannon
 1
 Successfully changed project path to: /home/rhiannon/Test-Project
 
-(Unity:405491): Gtk-CRITICAL **: 13:05:43.190: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:85073): Gtk-CRITICAL **: 10:02:08.372: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
 
-(Unity:405491): Gtk-CRITICAL **: 13:05:43.191: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:85073): Gtk-CRITICAL **: 10:02:08.373: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
 /home/rhiannon/Test-Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-allocator-temp-initial-block-size-main=262144"
@@ -87,16 +87,16 @@ Successfully changed project path to: /home/rhiannon/Test-Project
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [139923789728896]  Target information:
+Player connection [139653927976064]  Target information:
 
-Player connection [139923789728896]  * "[IP] 192.168.1.16 [Port] 0 [Flags] 2 [Guid] 433457895 [EditorId] 433457895 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.16) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [139653927976064]  * "[IP] 192.168.1.16 [Port] 0 [Flags] 2 [Guid] 3429132601 [EditorId] 3429132601 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.16) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [139923789728896]  * "[IP] 172.18.0.1 [Port] 0 [Flags] 2 [Guid] 433457895 [EditorId] 433457895 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.16) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [139653927976064]  * "[IP] 172.18.0.1 [Port] 0 [Flags] 2 [Guid] 3429132601 [EditorId] 3429132601 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.16) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [139923789728896]  * "[IP] 172.17.0.1 [Port] 0 [Flags] 2 [Guid] 433457895 [EditorId] 433457895 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.16) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [139653927976064]  * "[IP] 172.17.0.1 [Port] 0 [Flags] 2 [Guid] 3429132601 [EditorId] 3429132601 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.16) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [139923789728896] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [139923789728896] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [139653927976064] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [139653927976064] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -108,7 +108,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.15 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.14f1 (589824c1fc31)
 [Subsystems] Discovering subsystems at path /home/rhiannon/Unity/Hub/Editor/6000.2.14f1/Editor/Data/Resources/UnitySubsystems
@@ -127,13 +127,13 @@ clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessel
 _attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL
 _EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_tex
 ture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1858977104
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1028416480
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 Initialize mono
 Mono path[0] = '/home/rhiannon/Unity/Hub/Editor/6000.2.14f1/Editor/Data/Managed'
 Mono path[1] = '/home/rhiannon/Unity/Hub/Editor/6000.2.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/rhiannon/Unity/Hub/Editor/6000.2.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56491
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56073
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/rhiannon/Unity/Hub/Editor/6000.2.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -142,39 +142,39 @@ Platform support module is not available: /home/rhiannon/Unity/Hub/Editor/6000.2
 Trying to register platform support module: /home/rhiannon/Unity/Hub/Editor/6000.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll (that doesn't exist). Retrying without overrides.
 Platform support module is not available: /home/rhiannon/Unity/Hub/Editor/6000.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /home/rhiannon/Unity/Hub/Editor/6000.2.14f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.001469 seconds.
-- Loaded All Assemblies, in  0.225 seconds
+Registered in 0.001436 seconds.
+- Loaded All Assemblies, in  0.234 seconds
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.296 seconds
-Domain Reload Profiling: 521ms
-	BeginReloadAssembly (44ms)
+- Finished resetting the current domain, in  0.316 seconds
+Domain Reload Profiling: 550ms
+	BeginReloadAssembly (54ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (26ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
 	RebuildNativeTypeToScriptingClass (6ms)
 	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (110ms)
-		LoadAssemblies (43ms)
+	LoadAllAssembliesAndSetupDomain (107ms)
+		LoadAssemblies (52ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (108ms)
-			TypeCache.Refresh (108ms)
-				TypeCache.ScanAssembly (99ms)
+		AnalyzeDomain (105ms)
+			TypeCache.Refresh (104ms)
+				TypeCache.ScanAssembly (96ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (297ms)
+	FinalizeReload (317ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (264ms)
+		SetupLoadedEditorAssemblies (283ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (81ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (51ms)
-			ProcessInitializeOnLoadAttributes (93ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (104ms)
 			ProcessInitializeOnLoadMethodAttributes (37ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -190,44 +190,48 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.463 seconds
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+- Loaded All Assemblies, in  0.509 seconds
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+UpdateMenuTitleForLanguage: 10
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Test Project
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.527 seconds
-Domain Reload Profiling: 988ms
-	BeginReloadAssembly (86ms)
+- Finished resetting the current domain, in  0.578 seconds
+Domain Reload Profiling: 1085ms
+	BeginReloadAssembly (97ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (25ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (26ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (315ms)
-		LoadAssemblies (159ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (347ms)
+		LoadAssemblies (182ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (189ms)
-			TypeCache.Refresh (146ms)
-				TypeCache.ScanAssembly (137ms)
-			BuildScriptInfoCaches (34ms)
+		AnalyzeDomain (205ms)
+			TypeCache.Refresh (157ms)
+				TypeCache.ScanAssembly (146ms)
+			BuildScriptInfoCaches (39ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (527ms)
+	FinalizeReload (578ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (399ms)
+		SetupLoadedEditorAssemblies (446ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (25ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (94ms)
-			ProcessInitializeOnLoadAttributes (239ms)
-			ProcessInitializeOnLoadMethodAttributes (34ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (251ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -236,90 +240,197 @@ Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support c
 AutoLocale: current locale expects 'C' but got 'en_AU.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
 Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6397 unused Assets / (7.0 MB). Loaded Objects now: 7148.
-Memory consumption went from 135.0 MB to 128.0 MB.
-Total: 8.261722 ms (FindLiveObjects: 0.565357 ms CreateObjectMapping: 0.352838 ms MarkObjects: 5.240309 ms  DeleteObjects: 2.102668 ms)
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6804 unused Assets / (7.8 MB). Loaded Objects now: 7573.
+Memory consumption went from 138.7 MB to 130.9 MB.
+Total: 9.062437 ms (FindLiveObjects: 0.564167 ms CreateObjectMapping: 0.842665 ms MarkObjects: 5.536828 ms  DeleteObjects: 2.117967 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.483 seconds
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.538 seconds
+Domain Reload Profiling: 1022ms
+	BeginReloadAssembly (126ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (305ms)
+		LoadAssemblies (190ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (134ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (539ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (429ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (238ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6802 unused Assets / (7.8 MB). Loaded Objects now: 7589.
+Memory consumption went from 143.0 MB to 135.2 MB.
+Total: 8.686749 ms (FindLiveObjects: 0.620267 ms CreateObjectMapping: 0.680716 ms MarkObjects: 5.099260 ms  DeleteObjects: 2.285896 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6796 unused Assets / (7.5 MB). Loaded Objects now: 7589.
+Memory consumption went from 143.2 MB to 135.6 MB.
+Total: 13.587660 ms (FindLiveObjects: 0.747216 ms CreateObjectMapping: 0.888464 ms MarkObjects: 9.174836 ms  DeleteObjects: 2.776404 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.479 seconds
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.542 seconds
+Domain Reload Profiling: 1022ms
+	BeginReloadAssembly (120ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (304ms)
+		LoadAssemblies (190ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (149ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (133ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (543ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (436ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (241ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6802 unused Assets / (6.6 MB). Loaded Objects now: 7592.
+Memory consumption went from 143.0 MB to 136.4 MB.
+Total: 7.344877 ms (FindLiveObjects: 0.495838 ms CreateObjectMapping: 0.660566 ms MarkObjects: 4.537023 ms  DeleteObjects: 1.650910 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 4318.148566 seconds.
+  path: Assets/Low Poly Weapons VOL.1/Models/ANPEQ15.fbx
+  artifactKey: Guid(8cbbb35c5fcc276458e3e8865abf1341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Weapons VOL.1/Models/ANPEQ15.fbx using Guid(8cbbb35c5fcc276458e3e8865abf1341) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f7e835eea9b360a68ad8cd1e95e79de') in 0.343460717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 19147.376393 seconds.
-  path: Assets/FPS Icons Pack/Light Theme/Light theme spritesheet 1.png
-  artifactKey: Guid(5163ae49a0de665458bba61cd20c99b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS Icons Pack/Light Theme/Light theme spritesheet 1.png using Guid(5163ae49a0de665458bba61cd20c99b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '503124ce01e1c9248f6de853612cb213') in 0.073559697 seconds
+  Time since last request: 0.000023 seconds.
+  path: Assets/Low Poly Weapons VOL.1/Models/RPG7.fbx
+  artifactKey: Guid(4e5ce0b6f97fdbc40b7bc818b06b80ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Weapons VOL.1/Models/RPG7.fbx using Guid(4e5ce0b6f97fdbc40b7bc818b06b80ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3e802df453ad49ebb577dde95723803') in 0.015342569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Weapons VOL.1/Models/Flash.fbx
+  artifactKey: Guid(0463b32f3348438449af40d60686807b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Weapons VOL.1/Models/Flash.fbx using Guid(0463b32f3348438449af40d60686807b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef57dc644736fbb6f516c9e67f899000') in 0.009712692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Low Poly Weapons VOL.1/Models/Bennelli_M4.fbx
+  artifactKey: Guid(bf2593fe0c804b84688e307cfb1ddfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Weapons VOL.1/Models/Bennelli_M4.fbx using Guid(bf2593fe0c804b84688e307cfb1ddfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef5974b6870534e2ea8b3ffb169113c1') in 0.014747863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Weapons VOL.1/Models/M107.fbx
+  artifactKey: Guid(a0e70037533056249a1bcaf8b480c5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Weapons VOL.1/Models/M107.fbx using Guid(a0e70037533056249a1bcaf8b480c5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e68168f014d402492c30e3e37d3a4939') in 0.023591901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Low Poly Weapons VOL.1/Models/ELCAN.fbx
+  artifactKey: Guid(7430c7a2877dd0b429a981e69ac2ed00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Weapons VOL.1/Models/ELCAN.fbx using Guid(7430c7a2877dd0b429a981e69ac2ed00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18bee9904fdc504ceb4dfb51e688491a') in 0.007746765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly Weapons VOL.1/Models/M249.fbx
+  artifactKey: Guid(01890195b95a26f4fa4aa4f8f5a0cc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Weapons VOL.1/Models/M249.fbx using Guid(01890195b95a26f4fa4aa4f8f5a0cc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '752099bdadb2dd1397766039999aeb6f') in 0.024361047 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000007 seconds.
-  path: Assets/FPS Icons Pack/Light Theme/Light theme spritesheet 2.png
-  artifactKey: Guid(6674e8c43c63e4f4184cbd009379498d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS Icons Pack/Light Theme/Light theme spritesheet 2.png using Guid(6674e8c43c63e4f4184cbd009379498d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f00ecefdab96a4853559ce1df8cce11a') in 0.020610798 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
-
-========================================================================
-Received Import Request.
-  Time since last request: 64.189597 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
-  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a0a3a85874fa0734bbbe7f9d4b4405e1') in 0.129133189 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/FONTS/Teko-Bold SDF.asset
-  artifactKey: Guid(d0f0bf716f26dd144ada58ec2fbc7a45) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/FONTS/Teko-Bold SDF.asset using Guid(d0f0bf716f26dd144ada58ec2fbc7a45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '76c455d91e164a1072dfa95360985198') in 0.051553907 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/FONTS/Teko-Regular.ttf
-  artifactKey: Guid(c9bc85b61cad2784b9a54b10b23be129) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/FONTS/Teko-Regular.ttf using Guid(c9bc85b61cad2784b9a54b10b23be129) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ef920fee378c3489a14970606ee55d13') in 0.009495854 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000007 seconds.
-  path: Assets/FONTS
-  artifactKey: Guid(2799fcd9549254776a5c36a5978e07d6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/FONTS using Guid(2799fcd9549254776a5c36a5978e07d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '807fe2094eb50f1afcdc3ffbfabd2375') in 0.001221352 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000006 seconds.
-  path: Assets/Scripts/HUDManager.cs
-  artifactKey: Guid(4f9efefe577fa97c592af9e108cc7536) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scripts/HUDManager.cs using Guid(4f9efefe577fa97c592af9e108cc7536) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f44754ac4ce84b57846fd9a176963e1') in 0.004240695 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/FONTS/Teko-Regular SDF.asset
-  artifactKey: Guid(00bbcb8c9ed29e746bc1842fac515f79) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/FONTS/Teko-Regular SDF.asset using Guid(00bbcb8c9ed29e746bc1842fac515f79) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2b059f1fd139b381cfed01dadb925c54') in 0.010480358 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.225241 seconds.
-  path: Assets/Art/UI/DGT Bullet 1.prefab
-  artifactKey: Guid(740fa354b3cdac2938087eb6bd4fcda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI/DGT Bullet 1.prefab using Guid(740fa354b3cdac2938087eb6bd4fcda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f800b64c2422a3b43b4533975ee43a84') in 0.292478308 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.596412 seconds.
-  path: Assets/Art/UI/DGT Bullet 7.prefab
-  artifactKey: Guid(1872c5a5d253d8b5581080e8a4151ec1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Art/UI/DGT Bullet 7.prefab using Guid(1872c5a5d253d8b5581080e8a4151ec1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb926c5c06fd7b1a9b49d633f6576318') in 0.017342608 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+  Time since last request: 0.000012 seconds.
+  path: Assets/Low Poly Weapons VOL.1/Models/M1911.fbx
+  artifactKey: Guid(b812e42521a5a27499e76cc5ed56e3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Weapons VOL.1/Models/M1911.fbx using Guid(b812e42521a5a27499e76cc5ed56e3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a648f4e10f6082275cd223dbc3632b8e') in 0.016747511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

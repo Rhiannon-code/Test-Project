@@ -8,18 +8,18 @@ Kernel version:          6.18.2-2-cachyos
 Architecture:            x86_64
 Window Protocol:         Wayland (XWayland)
 Available memory:        32001 MB
-Date:                    2025-12-20T02:06:49Z
+Date:                    2025-12-20T23:10:48Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rhiannon" at "2025-12-20T02:06:49.939548Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rhiannon" at "2025-12-20T23:10:48.989822Z"
 [SignatureVerifier] Application signature verification not supported on this platform.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              2cf0769f963f447a90b840421c9b0992
-  Correlation Id:          9f61c1f695b7385a91a349501e0c719e
-  External correlation Id: 262647337829926087
+  Session Id:              74d7f0efb3ef4e6787eae46d62409977
+  Correlation Id:          6e007487a9ebe9aa2dda8de345523249
+  External correlation Id: 748405885464698647
   Machine Id:              uWgANzsd+Z7wjXEsI+lt9PoilnA=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-rhiannon" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rhiannon-notifications" at "2025-12-20T02:06:49.940149Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rhiannon-notifications" at "2025-12-20T23:10:48.990741Z"
 [Licensing::Module] Licensing Background thread has ended after 0.00s
 Selected window backend: (null) 
 Desktop is 7280 x 1440 @ 60 Hz
@@ -37,7 +37,7 @@ AssetImportWorker6
 -logFile
 Logs/AssetImportWorker6.log
 -srvPort
-38685
+42005
 -licensingIpc
 LicenseClient-rhiannon
 -job-worker-count
@@ -48,9 +48,9 @@ LicenseClient-rhiannon
 1
 Successfully changed project path to: /home/rhiannon/Test-Project
 
-(Unity:414647): Gtk-CRITICAL **: 13:06:50.417: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:108004): Gtk-CRITICAL **: 10:10:49.456: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
 
-(Unity:414647): Gtk-CRITICAL **: 13:06:50.418: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:108004): Gtk-CRITICAL **: 10:10:49.457: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
 /home/rhiannon/Test-Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-allocator-temp-initial-block-size-main=262144"
@@ -87,16 +87,16 @@ Successfully changed project path to: /home/rhiannon/Test-Project
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140639457721472]  Target information:
+Player connection [140445745327232]  Target information:
 
-Player connection [140639457721472]  * "[IP] 192.168.1.16 [Port] 0 [Flags] 2 [Guid] 722284924 [EditorId] 722284924 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.16) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [140445745327232]  * "[IP] 192.168.1.16 [Port] 0 [Flags] 2 [Guid] 2192000325 [EditorId] 2192000325 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.16) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [140639457721472]  * "[IP] 172.18.0.1 [Port] 0 [Flags] 2 [Guid] 722284924 [EditorId] 722284924 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.16) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [140445745327232]  * "[IP] 172.18.0.1 [Port] 0 [Flags] 2 [Guid] 2192000325 [EditorId] 2192000325 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.16) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [140639457721472]  * "[IP] 172.17.0.1 [Port] 0 [Flags] 2 [Guid] 722284924 [EditorId] 722284924 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.16) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [140445745327232]  * "[IP] 172.17.0.1 [Port] 0 [Flags] 2 [Guid] 2192000325 [EditorId] 2192000325 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.16) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [140639457721472] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [140639457721472] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140445745327232] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140445745327232] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -108,7 +108,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.14f1 (589824c1fc31)
 [Subsystems] Discovering subsystems at path /home/rhiannon/Unity/Hub/Editor/6000.2.14f1/Editor/Data/Resources/UnitySubsystems
@@ -127,13 +127,13 @@ clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessel
 _attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL
 _EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_tex
 ture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1558254800
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -470895696
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 Initialize mono
 Mono path[0] = '/home/rhiannon/Unity/Hub/Editor/6000.2.14f1/Editor/Data/Managed'
 Mono path[1] = '/home/rhiannon/Unity/Hub/Editor/6000.2.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/rhiannon/Unity/Hub/Editor/6000.2.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56647
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/rhiannon/Unity/Hub/Editor/6000.2.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -142,40 +142,40 @@ Platform support module is not available: /home/rhiannon/Unity/Hub/Editor/6000.2
 Trying to register platform support module: /home/rhiannon/Unity/Hub/Editor/6000.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll (that doesn't exist). Retrying without overrides.
 Platform support module is not available: /home/rhiannon/Unity/Hub/Editor/6000.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /home/rhiannon/Unity/Hub/Editor/6000.2.14f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.001510 seconds.
-- Loaded All Assemblies, in  0.224 seconds
+Registered in 0.001410 seconds.
+- Loaded All Assemblies, in  0.209 seconds
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.305 seconds
-Domain Reload Profiling: 529ms
-	BeginReloadAssembly (44ms)
+- Finished resetting the current domain, in  0.311 seconds
+Domain Reload Profiling: 520ms
+	BeginReloadAssembly (43ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (26ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (25ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (110ms)
-		LoadAssemblies (43ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (99ms)
+		LoadAssemblies (42ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (108ms)
-			TypeCache.Refresh (107ms)
-				TypeCache.ScanAssembly (99ms)
+		AnalyzeDomain (98ms)
+			TypeCache.Refresh (97ms)
+				TypeCache.ScanAssembly (89ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (305ms)
+	FinalizeReload (311ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (273ms)
+		SetupLoadedEditorAssemblies (280ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (80ms)
+			InitializePlatformSupportModulesInManaged (76ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (57ms)
-			ProcessInitializeOnLoadAttributes (94ms)
-			ProcessInitializeOnLoadMethodAttributes (38ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (93ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -190,261 +190,318 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.534 seconds
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+- Loaded All Assemblies, in  0.459 seconds
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+UpdateMenuTitleForLanguage: 10
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Test Project
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.543 seconds
-Domain Reload Profiling: 1075ms
-	BeginReloadAssembly (87ms)
+- Finished resetting the current domain, in  0.550 seconds
+Domain Reload Profiling: 1007ms
+	BeginReloadAssembly (82ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (25ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (384ms)
-		LoadAssemblies (183ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (317ms)
+		LoadAssemblies (156ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (232ms)
-			TypeCache.Refresh (188ms)
-				TypeCache.ScanAssembly (179ms)
-			BuildScriptInfoCaches (35ms)
+		AnalyzeDomain (192ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (138ms)
+			BuildScriptInfoCaches (36ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (543ms)
+	FinalizeReload (550ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (415ms)
+		SetupLoadedEditorAssemblies (433ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
+			InitializePlatformSupportModulesInManaged (23ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (95ms)
-			ProcessInitializeOnLoadAttributes (249ms)
-			ProcessInitializeOnLoadMethodAttributes (36ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (246ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 AutoLocale: current locale expects 'C' but got 'en_AU.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6397 unused Assets / (7.2 MB). Loaded Objects now: 7148.
-Memory consumption went from 135.0 MB to 127.8 MB.
-Total: 7.191967 ms (FindLiveObjects: 0.461007 ms CreateObjectMapping: 0.320778 ms MarkObjects: 4.382494 ms  DeleteObjects: 2.027268 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 19220.219339 seconds.
-  path: Assets/Art/UI/DGT Bullet 7.prefab
-  artifactKey: Guid(1872c5a5d253d8b5581080e8a4151ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI/DGT Bullet 7.prefab using Guid(1872c5a5d253d8b5581080e8a4151ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82ccd6f1f49af52c70035a3e72379c50') in 0.333329817 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.554077 seconds.
-  path: Assets/Art/UI/DGT Bullet 1.prefab
-  artifactKey: Guid(740fa354b3cdac2938087eb6bd4fcda9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Art/UI/DGT Bullet 1.prefab using Guid(740fa354b3cdac2938087eb6bd4fcda9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '18f78eaec37a53321284b89472b5f4bd') in 0.151657317 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6443 unused Assets / (6.0 MB). Loaded Objects now: 7355.
-Memory consumption went from 152.0 MB to 146.0 MB.
-Total: 7.226828 ms (FindLiveObjects: 0.475048 ms CreateObjectMapping: 0.208288 ms MarkObjects: 5.124680 ms  DeleteObjects: 1.418322 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6443 unused Assets / (6.3 MB). Loaded Objects now: 7355.
-Memory consumption went from 152.0 MB to 145.7 MB.
-Total: 7.784184 ms (FindLiveObjects: 0.483277 ms CreateObjectMapping: 0.512487 ms MarkObjects: 5.036781 ms  DeleteObjects: 1.750999 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6443 unused Assets / (6.4 MB). Loaded Objects now: 7355.
-Memory consumption went from 152.0 MB to 145.6 MB.
-Total: 7.854704 ms (FindLiveObjects: 0.471547 ms CreateObjectMapping: 0.508337 ms MarkObjects: 5.287569 ms  DeleteObjects: 1.586751 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6443 unused Assets / (6.0 MB). Loaded Objects now: 7355.
-Memory consumption went from 152.0 MB to 146.0 MB.
-Total: 7.890283 ms (FindLiveObjects: 0.580956 ms CreateObjectMapping: 0.285539 ms MarkObjects: 5.250139 ms  DeleteObjects: 1.772979 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.480 seconds
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Native extension for LinuxStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.550 seconds
-Domain Reload Profiling: 1030ms
-	BeginReloadAssembly (140ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (289ms)
-		LoadAssemblies (176ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (145ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (127ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (550ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (439ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (97ms)
-			ProcessInitializeOnLoadAttributes (273ms)
-			ProcessInitializeOnLoadMethodAttributes (36ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6449 unused Assets / (7.3 MB). Loaded Objects now: 7250.
-Memory consumption went from 153.5 MB to 146.2 MB.
-Total: 8.349390 ms (FindLiveObjects: 0.558946 ms CreateObjectMapping: 0.729106 ms MarkObjects: 4.693852 ms  DeleteObjects: 2.367076 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 474.025483 seconds.
-  path: Assets/Art/UI/Pistol_Ammo.prefab
-  artifactKey: Guid(740fa354b3cdac2938087eb6bd4fcda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI/Pistol_Ammo.prefab using Guid(740fa354b3cdac2938087eb6bd4fcda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e0d76cc4be92ae5db06b4d45aaf6dd6') in 0.302341599 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6804 unused Assets / (8.0 MB). Loaded Objects now: 7573.
+Memory consumption went from 138.7 MB to 130.7 MB.
+Total: 8.822928 ms (FindLiveObjects: 0.496447 ms CreateObjectMapping: 0.753676 ms MarkObjects: 5.060000 ms  DeleteObjects: 2.512075 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Art/UI/transparent.png
-  artifactKey: Guid(5807218b0d468ba53a000790d4d0def8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI/transparent.png using Guid(5807218b0d468ba53a000790d4d0def8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38b6cbe75616126c526e9cd14c695fbe') in 0.014883632 seconds
+  Time since last request: 4658.894813 seconds.
+  path: Assets/boxes_pack/Materials/Textures/box_ammo_d.tga
+  artifactKey: Guid(c39fb7ffff47bb24fb530b68c9b3b8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/boxes_pack/Materials/Textures/box_ammo_d.tga using Guid(c39fb7ffff47bb24fb530b68c9b3b8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33ae7daa6b44616894017017b4ba39b9') in 0.037835207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.857251 seconds.
+  path: Assets/boxes_pack/Materials/box_ammo.mat
+  artifactKey: Guid(e79ae95429235264d93c3ad5628aa9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/boxes_pack/Materials/box_ammo.mat using Guid(e79ae95429235264d93c3ad5628aa9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f824f9f7ed58e7d710708004b673fac0') in 0.887302824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/boxes_pack/Materials/pbr_box_med.mat
+  artifactKey: Guid(eaabdd2d0150a014eb2cf94f33aadfcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/boxes_pack/Materials/pbr_box_med.mat using Guid(eaabdd2d0150a014eb2cf94f33aadfcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3bb0d915cd6decf2ae70b47f6ea0c4c8') in 0.603313847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.793013 seconds.
+  path: Assets/boxes_pack/Prefab/box_ammo.prefab
+  artifactKey: Guid(4656138d9606a80408030bdc231b1233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/boxes_pack/Prefab/box_ammo.prefab using Guid(4656138d9606a80408030bdc231b1233) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0f979cbfbb5d3ebd504544f721f97e4') in 0.017586567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/boxes_pack/Prefab/pbr_box_med.prefab
+  artifactKey: Guid(464802a8183dc9348be0c5e743e5e792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/boxes_pack/Prefab/pbr_box_med.prefab using Guid(464802a8183dc9348be0c5e743e5e792) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd187bffac238a30edb15fcc520a2d6b2') in 0.005815796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 149.133143 seconds.
+  path: Assets/boxes_pack/Mesh/ammo_box.FBX
+  artifactKey: Guid(3fe47bcef97348f4e8fbc0553a357aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/boxes_pack/Mesh/ammo_box.FBX using Guid(3fe47bcef97348f4e8fbc0553a357aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e01ed3d1e3484dabd25e00b7ee24d52') in 0.669354608 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.329347 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b72c935079ba95563e246d02d57d535f') in 0.000560717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.396415 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(e0040a1c75ac3db20b0b43effaef7405) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources using Guid(e0040a1c75ac3db20b0b43effaef7405) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c96eabad73baabcc546a935484ddae06') in 0.107871835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005301 seconds.
+  path: Assets/boxes_pack/Materials/Textures/box_supply_d.tga
+  artifactKey: Guid(cc994c06519ccc84aadf7411cc84433b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/boxes_pack/Materials/Textures/box_supply_d.tga using Guid(cc994c06519ccc84aadf7411cc84433b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5f99ca88d16de7cb8eb9219ccd468387') in 0.054616489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/boxes_pack/Prefab/pbr_box_supply.prefab
+  artifactKey: Guid(a991ce3caab51f44889616a93b745f92) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/boxes_pack/Prefab/pbr_box_supply.prefab using Guid(a991ce3caab51f44889616a93b745f92) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b84d4283a33d0793a74517ced1d5101') in 0.012330268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/boxes_pack/Materials/Textures/pbr_box_supply_d.tga
+  artifactKey: Guid(81ac4447e6577e04c89acd25c0bbed61) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/boxes_pack/Materials/Textures/pbr_box_supply_d.tga using Guid(81ac4447e6577e04c89acd25c0bbed61) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c634fb7dcdfe47359da556f57dd1ad7f') in 0.005291079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/boxes_pack/Prefab/box_supply.prefab
+  artifactKey: Guid(2398398009cd3134e99d728baf4aa18f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/boxes_pack/Prefab/box_supply.prefab using Guid(2398398009cd3134e99d728baf4aa18f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b1120d7b764b0dbb80c60bb68755c75') in 0.00339362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/boxes_pack/Prefab/pbr_box_med.prefab
+  artifactKey: Guid(464802a8183dc9348be0c5e743e5e792) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/boxes_pack/Prefab/pbr_box_med.prefab using Guid(464802a8183dc9348be0c5e743e5e792) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6981a770e43b4e1e32dc3dfbc8f9af5c') in 0.005337388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/boxes_pack/Mesh/Materials/pbr_boxes.mat
+  artifactKey: Guid(4be56f1696f189dbd96ee311dace404f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/boxes_pack/Mesh/Materials/pbr_boxes.mat using Guid(4be56f1696f189dbd96ee311dace404f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd65240cd1a418136dce19779207944ef') in 0.00512697 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6443 unused Assets / (6.1 MB). Loaded Objects now: 7394.
-Memory consumption went from 158.4 MB to 152.3 MB.
-Total: 7.507336 ms (FindLiveObjects: 0.600626 ms CreateObjectMapping: 0.212009 ms MarkObjects: 5.018891 ms  DeleteObjects: 1.675260 ms)
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Resources/Rifle_Weapon.prefab
+  artifactKey: Guid(52e5e29c6ef1ea46fa19755655a19e1d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/Rifle_Weapon.prefab using Guid(52e5e29c6ef1ea46fa19755655a19e1d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f56f607f08016ab6ec926b5220cadb25') in 0.013863058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.483 seconds
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.524 seconds
-Domain Reload Profiling: 1008ms
-	BeginReloadAssembly (134ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (43ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (297ms)
-		LoadAssemblies (188ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (145ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (129ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (524ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (420ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (98ms)
-			ProcessInitializeOnLoadAttributes (253ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6449 unused Assets / (6.2 MB). Loaded Objects now: 7276.
-Memory consumption went from 153.5 MB to 147.3 MB.
-Total: 6.998319 ms (FindLiveObjects: 0.497877 ms CreateObjectMapping: 0.333778 ms MarkObjects: 4.120956 ms  DeleteObjects: 2.045038 ms)
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/boxes_pack/Materials/Textures/pbr_box_ammo_m.tga
+  artifactKey: Guid(afd7c09bbbe2ebc40a917b9cb823345c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/boxes_pack/Materials/Textures/pbr_box_ammo_m.tga using Guid(afd7c09bbbe2ebc40a917b9cb823345c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a06d49c678501142f7f731e1b93e1e3') in 0.004716442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
-Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/boxes_pack/Mesh/Materials
+  artifactKey: Guid(8774fc711dcab8a828d5efbdc959e86e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/boxes_pack/Mesh/Materials using Guid(8774fc711dcab8a828d5efbdc959e86e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6e2bc3263cf7bfd39869301ccdf52c70') in 0.001519551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/boxes_pack/Prefab
+  artifactKey: Guid(c3e1a5a5bee6bbf468497ed02156cfcd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/boxes_pack/Prefab using Guid(c3e1a5a5bee6bbf468497ed02156cfcd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a0fa876339663131c213db74bf9f8e7d') in 0.001483211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resources/Pistol_Ammo.prefab
+  artifactKey: Guid(8a3b20839935e7cad8dd0317232635fe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/Pistol_Ammo.prefab using Guid(8a3b20839935e7cad8dd0317232635fe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a9160b75e742ade88793d9dd6312313') in 0.004618233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/boxes_pack/Materials
+  artifactKey: Guid(15ef0a76478fa88499dc811cc2a4fad4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/boxes_pack/Materials using Guid(15ef0a76478fa88499dc811cc2a4fad4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '477fc36d2cad0d05385500cc4ce33240') in 0.001273102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/boxes_pack/Materials/box_supply.mat
+  artifactKey: Guid(b3d382060afc09f41b371e7dffe5729e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/boxes_pack/Materials/box_supply.mat using Guid(b3d382060afc09f41b371e7dffe5729e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f652d70b9bd19f7c0186f23b0fd5c909') in 0.00521495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/boxes_pack/Mesh
+  artifactKey: Guid(1d5824d18f61830439d4d8eeda00e789) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/boxes_pack/Mesh using Guid(1d5824d18f61830439d4d8eeda00e789) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '653a6e33a5cf0bcf716df28391e51ab2') in 0.001118203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/boxes_pack/Materials/Textures/pbr_box_ammo_d.tga
+  artifactKey: Guid(b4b424d88f2574e4980e43ffc3e29de8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/boxes_pack/Materials/Textures/pbr_box_ammo_d.tga using Guid(b4b424d88f2574e4980e43ffc3e29de8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '51230b750b18eebd85c9267e357f96ec') in 0.00507682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/boxes_pack/Mesh/ammo_box.FBX
+  artifactKey: Guid(3fe47bcef97348f4e8fbc0553a357aeb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/boxes_pack/Mesh/ammo_box.FBX using Guid(3fe47bcef97348f4e8fbc0553a357aeb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7083c30bb95cfc35088bfee5bd4e4186') in 0.038186995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/boxes_pack/Materials/Textures/box_ammo_n.tga
+  artifactKey: Guid(ea9925ec5b4e0334e880f676dde474f8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/boxes_pack/Materials/Textures/box_ammo_n.tga using Guid(ea9925ec5b4e0334e880f676dde474f8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6107b9bbba840711c90e42adf689b23f') in 0.005143209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/boxes_pack/Materials/pbr_box_ammo.mat
+  artifactKey: Guid(1fcdfe3197fe8804385ede8118808842) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/boxes_pack/Materials/pbr_box_ammo.mat using Guid(1fcdfe3197fe8804385ede8118808842) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '18dbe9f13dae516507d7620c94771116') in 0.003870268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/boxes_pack/Prefab/box_ammo.prefab
+  artifactKey: Guid(4656138d9606a80408030bdc231b1233) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/boxes_pack/Prefab/box_ammo.prefab using Guid(4656138d9606a80408030bdc231b1233) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '03bd325b9495df2208c7251e5ddd8e52') in 0.003028713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/boxes_pack/Prefab/pbr_box_ammo.prefab
+  artifactKey: Guid(8763502436213a942851460236cd07e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/boxes_pack/Prefab/pbr_box_ammo.prefab using Guid(8763502436213a942851460236cd07e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '743b05e6e1866928633f3da5af6f04ec') in 0.003230941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/boxes_pack/Materials/Textures
+  artifactKey: Guid(72879b4f4f974a9439b6498ad692df25) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/boxes_pack/Materials/Textures using Guid(72879b4f4f974a9439b6498ad692df25) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56e90fbf0fabcd00e5a6a7cfde08f5d1') in 0.00158739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
 ========================================================================
 Received Prepare
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6443 unused Assets / (6.0 MB). Loaded Objects now: 7276.
-Memory consumption went from 153.5 MB to 147.6 MB.
-Total: 6.141993 ms (FindLiveObjects: 0.465507 ms CreateObjectMapping: 0.207869 ms MarkObjects: 3.952586 ms  DeleteObjects: 1.515571 ms)
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6798 unused Assets / (7.4 MB). Loaded Objects now: 7765.
+Memory consumption went from 156.2 MB to 148.8 MB.
+Total: 10.032631 ms (FindLiveObjects: 0.562966 ms CreateObjectMapping: 0.645417 ms MarkObjects: 6.801740 ms  DeleteObjects: 2.022008 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6796 unused Assets / (7.4 MB). Loaded Objects now: 7764.
+Memory consumption went from 156.2 MB to 148.9 MB.
+Total: 10.769187 ms (FindLiveObjects: 0.741216 ms CreateObjectMapping: 0.880565 ms MarkObjects: 6.973529 ms  DeleteObjects: 2.173067 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+
+SDL leaked 2 allocations
+Internal: Possible leak. All render target surfaces should be removed from IdMap when destructed using RenderTargetMap::Remove(RenderSurfaceBase* rs).

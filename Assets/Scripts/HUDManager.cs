@@ -21,7 +21,6 @@ public class HUDManager : MonoBehaviour
     [Header("Throwables")]
     public Image lethalUI;
     public TextMeshProUGUI leathalAmountUI;
-
     public Image tacticalUI;
     public TextMeshProUGUI tacticalAmountUI;
 
@@ -46,7 +45,7 @@ public class HUDManager : MonoBehaviour
     if (activeWeapon)
         {
             magazineAmmoUI.text = $"{activeWeapon.bulletsLeft / activeWeapon.bulletsPerBurst}";
-            totalAmmoUI.text = $"{activeWeapon.magazineSize / activeWeapon.bulletsPerBurst}";
+            totalAmmoUI.text = $"WeaponManager.Instance.CheckAmmoLeftFor(activeWeapon.thisWeaponModel)";
             Weapon.WeaponModel model = activeWeapon.thisWeaponModel;
             ammoTypeUI.sprite = GetAmmoTypeSprite(model);
             activeWeaponUI.sprite= GetWeaponSprite(model);

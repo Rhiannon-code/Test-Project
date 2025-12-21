@@ -1,4 +1,6 @@
+using System;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class WeaponManager : MonoBehaviour
@@ -7,6 +9,12 @@ public class WeaponManager : MonoBehaviour
 
     public List<GameObject> weaponSlots;
     public GameObject activeWeaponSlot;
+
+    [Header("Ammo")]
+    public int totalRifleAmmo = 0;
+    public int totalPistolAmmo = 0;
+
+
     private void Awake()
     {
         if(Instance != null && Instance != this)
@@ -61,6 +69,22 @@ public class WeaponManager : MonoBehaviour
         weapon.isActiveWeapon = true;
         weapon.animator.enabled = true;
     }
+
+    internal void PickupAmmo(AmmoBox ammo)
+    {
+        switch (ammo.ammoType)
+        {
+            case AmmoBox.AmmoType.PistolAmmo:
+                totalPistolAmmo += ammo.ammoAmount;
+                break;
+            case AmmoBox.AmmoType.RifleAmmo:
+                totalRifleAmmo += ammo.ammoAmount;
+                break;
+            default:
+                break;
+        }
+    }
+        
     private void DropCurrentWeapon(GameObject pickedUpWeapon)
     {
         if (activeWeaponSlot.transform.childCount > 0)
@@ -87,5 +111,31 @@ public class WeaponManager : MonoBehaviour
             newWeapon.isActiveWeapon = true;
         }
     }
-    
+
+    internal void DecreaseTotalAmmo(int bulletsToDecrease, Weapon.WeaponModel thisWeaponModel)
+    {
+        switch (thisWeaponModel)
+        {
+            case Weapon.WeaponModel.Pistol:
+                totalPistolAmmo -= bulletsToDecrease;
+                break;
+            case Weapon.WeaponModel.Rifle:
+                totalRifleAmmo -= bulletsToDecrease;
+                break;
+        }
+    }
+
+    public int CheckAmmoLeftFor(Weapon.WeaponModel thisWeaponModel)
+    {
+        switch (thisWeaponModel)
+        {
+            case Weapon.WeaponModel.Pistol:
+                return totalPistolAmmo;
+            case Weapon.WeaponModel.Rifle:
+                return totalRifleAmmo;
+            default:
+                return 0;
+        }
+    }
 }
+

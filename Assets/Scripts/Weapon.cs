@@ -74,7 +74,7 @@ public enum ShootingMode
             //Press Left Mouse Button
             isShooting = Input.GetKeyDown(KeyCode.Mouse0);
         }
-        if (Input.GetKeyDown(KeyCode.R) && bulletsLeft < magazineSize && !isReloading)
+        if (Input.GetKeyDown(KeyCode.R) && bulletsLeft < magazineSize && isReloading == false && WeaponManager.Instance.CheckAmmoLeftFor(thisWeaponModel) > 0)
         {
             ReloadWeapon();
         }
@@ -137,7 +137,16 @@ public enum ShootingMode
 
     private void ReloadingCompleted()
     {
-        bulletsLeft = magazineSize;
+        if (WeaponManager.Instance.CheckAmmoLeftFor(thisWeaponModel) > magazineSize)
+        {
+            bulletsLeft = magazineSize;
+            WeaponManager.Instance.DecreaseTotalAmmo(bulletsLeft, thisWeaponModel);
+        }
+        else
+        {
+            bulletsLeft = WeaponManager.Instance.CheckAmmoLeftFor(thisWeaponModel);
+            WeaponManager.Instance.DecreaseTotalAmmo(bulletsLeft, thisWeaponModel);
+        }
         isReloading = false;
     }
     private void ResetShot()
