@@ -81,3 +81,22 @@ The following packages were added:
   com.unity.testtools.codecoverage@1.2.6
   com.unity.modules.hierarchycore@1.0.0
   com.unity.modules.subsystems@1.0.0
+
+=== Tue Dec 23 09:47:17 2025
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.modules.adaptiveperformance@1.0.0
+  com.unity.modules.vectorgraphics@1.0.0
+The following packages were updated:
+  com.unity.editorcoroutines from version 1.0.0 to 1.0.1
+  com.unity.inputsystem from version 1.16.0 to 1.17.0
+  com.unity.multiplayer.center from version 1.0.0 to 1.0.1
+  com.unity.performance.profile-analyzer from version 1.2.3 to 1.2.4
+  com.unity.postprocessing from version 3.5.0 to 3.5.1
+  com.unity.render-pipelines.universal from version 17.2.0 to 17.3.0
+  com.unity.settings-manager from version 2.1.0 to 2.1.1
+  com.unity.testtools.codecoverage from version 1.2.6 to 1.2.7
+  com.unity.visualscripting from version 1.9.8 to 1.9.9
