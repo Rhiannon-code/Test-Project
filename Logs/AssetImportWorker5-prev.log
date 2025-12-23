@@ -21,18 +21,18 @@ Kernel version:          6.18.2-2-cachyos
 Architecture:            x86_64
 Window Protocol:         Wayland (XWayland)
 Available memory:        32001 MB
-Date:                    2025-12-22T22:56:06Z
+Date:                    2025-12-23T00:42:09Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rhiannon" at "2025-12-22T22:56:06.946542Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rhiannon" at "2025-12-23T00:42:09.823764Z"
 [SignatureVerifier] Application signature verification not supported on this platform.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              5a8ae08efa014aef8033d9037a77a4ce
+  Session Id:              3da7dcb7ccf04b868dd6fc40bd8e64ac
   Correlation Id:          4ce0d016eac417a360dd63b2440cf48f
-  External correlation Id: 1499492739985987385
+  External correlation Id: 8405506847841068745
   Machine Id:              uWgANzsd+Z7wjXEsI+lt9PoilnA=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-rhiannon" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rhiannon-notifications" at "2025-12-22T22:56:06.947078Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rhiannon-notifications" at "2025-12-23T00:42:09.824441Z"
 [Licensing::Module] Licensing Background thread has ended after 0.00s
 Selected window backend: (null) 
 Desktop is 7280 x 1440 @ 60 Hz
@@ -50,7 +50,7 @@ AssetImportWorker5
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-43443
+34125
 -licensingIpc
 LicenseClient-rhiannon
 -job-worker-count
@@ -96,16 +96,16 @@ Successfully changed project path to: /home/rhiannon/Test-Project
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [139991271881856]  Target information:
+Player connection [139918063987840]  Target information:
 
-Player connection [139991271881856]  * "[IP] 192.168.1.16 [Port] 0 [Flags] 2 [Guid] 1074487699 [EditorId] 1074487699 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.16) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [139918063987840]  * "[IP] 192.168.1.16 [Port] 0 [Flags] 2 [Guid] 1502830532 [EditorId] 1502830532 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.16) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [139991271881856]  * "[IP] 172.18.0.1 [Port] 0 [Flags] 2 [Guid] 1074487699 [EditorId] 1074487699 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.16) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [139918063987840]  * "[IP] 172.18.0.1 [Port] 0 [Flags] 2 [Guid] 1502830532 [EditorId] 1502830532 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.16) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [139991271881856]  * "[IP] 172.17.0.1 [Port] 0 [Flags] 2 [Guid] 1074487699 [EditorId] 1074487699 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.16) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [139918063987840]  * "[IP] 172.17.0.1 [Port] 0 [Flags] 2 [Guid] 1502830532 [EditorId] 1502830532 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.16) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [139991271881856] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [139991271881856] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [139918063987840] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [139918063987840] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -117,7 +117,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.69 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.88 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.2f1 (a9779f353c9b)
 [Subsystems] Discovering subsystems at path /home/rhiannon/Unity/Hub/Editor/6000.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -136,19 +136,19 @@ clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessel
 _attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL
 _EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_tex
 ture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 1972344768
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -212717840
 Initialize mono
 Mono path[0] = '/home/rhiannon/Unity/Hub/Editor/6000.3.2f1/Editor/Data/Managed'
 Mono path[1] = '/home/rhiannon/Unity/Hub/Editor/6000.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/rhiannon/Unity/Hub/Editor/6000.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56990
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56823
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/rhiannon/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /home/rhiannon/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /home/rhiannon/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.001522 seconds.
-- Loaded All Assemblies, in  0.260 seconds
+Registered in 0.001513 seconds.
+- Loaded All Assemblies, in  0.265 seconds
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
@@ -157,9 +157,9 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.392 seconds
-Domain Reload Profiling: 652ms
-	BeginReloadAssembly (52ms)
+- Finished resetting the current domain, in  0.356 seconds
+Domain Reload Profiling: 620ms
+	BeginReloadAssembly (55ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
@@ -167,25 +167,25 @@ Domain Reload Profiling: 652ms
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (29ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (133ms)
-		LoadAssemblies (51ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (134ms)
+		LoadAssemblies (54ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (130ms)
-			TypeCache.Refresh (129ms)
-				TypeCache.ScanAssembly (119ms)
+		AnalyzeDomain (132ms)
+			TypeCache.Refresh (131ms)
+				TypeCache.ScanAssembly (120ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (392ms)
+	FinalizeReload (356ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (352ms)
+		SetupLoadedEditorAssemblies (319ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (73ms)
+			InitializePlatformSupportModulesInManaged (68ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (88ms)
-			ProcessInitializeOnLoadAttributes (136ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (129ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -200,8 +200,8 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.534 seconds
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+- Loaded All Assemblies, in  0.589 seconds
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
@@ -213,303 +213,152 @@ UpdateMenuTitleForLanguage: 10
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Test Project
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.625 seconds
-Domain Reload Profiling: 1156ms
-	BeginReloadAssembly (101ms)
+- Finished resetting the current domain, in  0.633 seconds
+Domain Reload Profiling: 1220ms
+	BeginReloadAssembly (115ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (360ms)
-		LoadAssemblies (197ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (381ms)
+		LoadAssemblies (201ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (201ms)
-			TypeCache.Refresh (152ms)
-				TypeCache.ScanAssembly (142ms)
-			BuildScriptInfoCaches (39ms)
+		AnalyzeDomain (228ms)
+			TypeCache.Refresh (175ms)
+				TypeCache.ScanAssembly (163ms)
+			BuildScriptInfoCaches (43ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (625ms)
+	FinalizeReload (633ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (486ms)
+		SetupLoadedEditorAssemblies (489ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
+			InitializePlatformSupportModulesInManaged (15ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (132ms)
-			ProcessInitializeOnLoadAttributes (257ms)
-			ProcessInitializeOnLoadMethodAttributes (73ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (264ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
 AutoLocale: current locale expects 'C' but got 'en_AU.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6860 unused Assets / (7.0 MB). Loaded Objects now: 7733.
-Memory consumption went from 149.3 MB to 142.2 MB.
-Total: 10.837881 ms (FindLiveObjects: 0.481947 ms CreateObjectMapping: 0.726196 ms MarkObjects: 7.393290 ms  DeleteObjects: 2.235928 ms)
+Unloading 6863 unused Assets / (7.2 MB). Loaded Objects now: 7736.
+Memory consumption went from 147.3 MB to 140.1 MB.
+Total: 11.179869 ms (FindLiveObjects: 0.505797 ms CreateObjectMapping: 0.829086 ms MarkObjects: 7.040482 ms  DeleteObjects: 2.803864 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2917.967944 seconds.
-  path: Assets/Art/Animations/Locomotion Pack/right turn.fbx
-  artifactKey: Guid(a5a54ed4addab61a89b89d49d2aea7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Animations/Locomotion Pack/right turn.fbx using Guid(a5a54ed4addab61a89b89d49d2aea7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7fb743b3d16374ae90254a44209fb0f') in 0.031745197 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
+  Time since last request: 9281.035609 seconds.
+  path: Assets/ElmanGameDevTools/FirstPersonControllerPro/Textures
+  artifactKey: Guid(99b9606d6d98a4847bcfd54e29517ffc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ElmanGameDevTools/FirstPersonControllerPro/Textures using Guid(99b9606d6d98a4847bcfd54e29517ffc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2ed1cabef2885feb939d9a771cf055fe') in 0.034549422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Art/Animations/Pistol/pistol stand to kneel.fbx
-  artifactKey: Guid(8e832cb9ac44b0c01b891991f761ff8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Art/Animations/Pistol/pistol stand to kneel.fbx using Guid(8e832cb9ac44b0c01b891991f761ff8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '70be2a84b877b052ce8fce6e64ac1119') in 0.083896883 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
+  Time since last request: 0.000018 seconds.
+  path: Assets/ElmanGameDevTools/FirstPersonControllerPro
+  artifactKey: Guid(7a394eced9eeb754fbf815d8e3209a43) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ElmanGameDevTools/FirstPersonControllerPro using Guid(7a394eced9eeb754fbf815d8e3209a43) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3196902ec1915b9f856ea15c322cc3c3') in 0.001394192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Art/Animations/Locomotion Pack/walking.fbx
-  artifactKey: Guid(d18e1f289549f9b29bfa49432c8346aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Animations/Locomotion Pack/walking.fbx using Guid(d18e1f289549f9b29bfa49432c8346aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'edb3bfe223551b9f2707b7336d0b3eda') in 0.002298158 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Art/Animations/Locomotion Pack/idle.fbx
-  artifactKey: Guid(f61c10a10fadc376e9401b66f45202e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Animations/Locomotion Pack/idle.fbx using Guid(f61c10a10fadc376e9401b66f45202e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f4b1f92181d2d64529020eedbac469b') in 0.002107469 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Art/Animations/Locomotion Pack/Dummy.fbx
-  artifactKey: Guid(6392d41f780644e5796e8b6c39c4d928) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Art/Animations/Locomotion Pack/Dummy.fbx using Guid(6392d41f780644e5796e8b6c39c4d928) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '033a83639a20fd46e4db9bc86f310aed') in 0.025337512 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 140
+  Time since last request: 0.000007 seconds.
+  path: Assets/ElmanGameDevTools/FirstPersonControllerPro/Materials/Object.mat
+  artifactKey: Guid(e6314a95fccb8804db5ed0254889cade) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ElmanGameDevTools/FirstPersonControllerPro/Materials/Object.mat using Guid(e6314a95fccb8804db5ed0254889cade) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f7739cf84259df5fba629e8c321dedc4') in 0.033734006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000012 seconds.
-  path: Assets/Art/Animations/Rifle/Dummy.fbx
-  artifactKey: Guid(5d7d5069b59f3ef9c86b3e1ba0080475) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Art/Animations/Rifle/Dummy.fbx using Guid(5d7d5069b59f3ef9c86b3e1ba0080475) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '52179ae9609f71ecde680642fec57f11') in 0.008354374 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 140
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Art/Animations/Rifle/strafe (2).fbx
-  artifactKey: Guid(29c2c4b262aa08682862940f903ae0ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Art/Animations/Rifle/strafe (2).fbx using Guid(29c2c4b262aa08682862940f903ae0ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c6e7dce1a974859fdc30b89ad2909a62') in 0.006554744 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Art/Animations/Pistol/Dummy.fbx
-  artifactKey: Guid(3cfb2f0e47f711dd2806824f2f25bf9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Art/Animations/Pistol/Dummy.fbx using Guid(3cfb2f0e47f711dd2806824f2f25bf9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ec822eba4177b01ade4dacf03ddc199b') in 0.008232075 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 140
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.332196 seconds.
-  path: Assets/Art/Animations/Locomotion Pack/right strafe.fbx
-  artifactKey: Guid(adb393a5c9c837cf082619d6e00fdcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Animations/Locomotion Pack/right strafe.fbx using Guid(adb393a5c9c837cf082619d6e00fdcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6844f88d3be676b8ab14e92727ee66e8') in 0.002083488 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Art/Animations/Locomotion Pack/right turn 90.fbx
-  artifactKey: Guid(641f9b8f1a59ec89a9569ae7187a0ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Animations/Locomotion Pack/right turn 90.fbx using Guid(641f9b8f1a59ec89a9569ae7187a0ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ccf67fc0df387be80bd708b7653323f') in 0.002272147 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.890368 seconds.
-  path: Assets/Art/Animations/Locomotion Pack/running.fbx
-  artifactKey: Guid(29b432481b32ad879b2e70026df401c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Art/Animations/Locomotion Pack/running.fbx using Guid(29b432481b32ad879b2e70026df401c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0dc019a6962c0293755ba4dd9aaef2e1') in 0.006394835 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 136
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Art/Animations/Locomotion Pack/left strafe walking.fbx
-  artifactKey: Guid(028f2449db6310ea8947c91b81c1ceb8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Art/Animations/Locomotion Pack/left strafe walking.fbx using Guid(028f2449db6310ea8947c91b81c1ceb8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3e98da465c773b19b5a64e20e34b0c10') in 0.005288201 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 136
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.252827 seconds.
-  path: Assets/Art/Animations/Pistol/pistol kneeling idle.fbx
-  artifactKey: Guid(ac3b5958d29d1b88ebb7ec178d9c08cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Animations/Pistol/pistol kneeling idle.fbx using Guid(ac3b5958d29d1b88ebb7ec178d9c08cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '139097982a5a9169228596d18870993e') in 0.002779455 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
+  path: Assets/ElmanGameDevTools/FirstPersonControllerPro/Materials
+  artifactKey: Guid(8cb139c9bc9cc6841a1b0c0cf61acb7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ElmanGameDevTools/FirstPersonControllerPro/Materials using Guid(8cb139c9bc9cc6841a1b0c0cf61acb7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c70a9dfb36b4d514eb8964a1f1559097') in 0.001324473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000012 seconds.
-  path: Assets/Art/Animations/Pistol/pistol walk backward.fbx
-  artifactKey: Guid(6c08f19fc52c42e8a9a13b2354eed626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Animations/Pistol/pistol walk backward.fbx using Guid(6c08f19fc52c42e8a9a13b2354eed626) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd7a8a99c6b11ea9dd2c230b4f4bfd71') in 0.002559286 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
+  path: Assets/ElmanGameDevTools/FirstPersonControllerPro/Player/Song/grass.wav
+  artifactKey: Guid(b57d1f12d2c8bbc4792280119c2cfa2e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ElmanGameDevTools/FirstPersonControllerPro/Player/Song/grass.wav using Guid(b57d1f12d2c8bbc4792280119c2cfa2e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '527c6010c6de085af3a148e82bedbd97') in 0.019149726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Art/Animations/Pistol/pistol stand to kneel.fbx
-  artifactKey: Guid(8e832cb9ac44b0c01b891991f761ff8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Animations/Pistol/pistol stand to kneel.fbx using Guid(8e832cb9ac44b0c01b891991f761ff8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af0455d957918b0263e056f20bff68f7') in 0.002427256 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6852 unused Assets / (6.8 MB). Loaded Objects now: 7735.
+Memory consumption went from 146.0 MB to 139.2 MB.
+Total: 13.712625 ms (FindLiveObjects: 0.512397 ms CreateObjectMapping: 0.628127 ms MarkObjects: 10.080865 ms  DeleteObjects: 2.490556 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Art/Animations/Pistol/pistol run arc (2).fbx
-  artifactKey: Guid(16833a4e96dedd2e78f6ac0ef04beca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Animations/Pistol/pistol run arc (2).fbx using Guid(16833a4e96dedd2e78f6ac0ef04beca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6592987b87a751dcd5d46d71290949e4') in 0.002590856 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.622 seconds
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.656 seconds
+Domain Reload Profiling: 1279ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (399ms)
+		LoadAssemblies (283ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (172ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (152ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (657ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (527ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (138ms)
+			ProcessInitializeOnLoadAttributes (286ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6858 unused Assets / (7.1 MB). Loaded Objects now: 7751.
+Memory consumption went from 152.3 MB to 145.2 MB.
+Total: 9.374009 ms (FindLiveObjects: 0.503717 ms CreateObjectMapping: 0.541847 ms MarkObjects: 6.151237 ms  DeleteObjects: 2.176588 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 9.971440 seconds.
-  path: Assets/Art/Animations/Pistol/pistol kneel to stand.fbx
-  artifactKey: Guid(3403cc73603613680b5bd2490dfcd83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Animations/Pistol/pistol kneel to stand.fbx using Guid(3403cc73603613680b5bd2490dfcd83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4db245c37340f8f0bf5ae5d73694724') in 0.002445107 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Art/Animations/Pistol/pistol walk backward arc (2).fbx
-  artifactKey: Guid(971a37ff0866995d58d572c0d1788610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Animations/Pistol/pistol walk backward arc (2).fbx using Guid(971a37ff0866995d58d572c0d1788610) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c32d626894968522d8a0f60abcedaa7') in 0.002128218 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Art/Animations/Pistol/pistol walk.fbx
-  artifactKey: Guid(e7b41776ee35fefc385e025642032386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Animations/Pistol/pistol walk.fbx using Guid(e7b41776ee35fefc385e025642032386) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ad4aecb656efd7cf24f02a10005e79d') in 0.002110559 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Art/Animations/Pistol/pistol walk arc.fbx
-  artifactKey: Guid(095b482bf0060c920b6c25f45c1bcc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Animations/Pistol/pistol walk arc.fbx using Guid(095b482bf0060c920b6c25f45c1bcc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82a1d8c772a596da31a78392d24516c9') in 0.002091989 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.824567 seconds.
-  path: Assets/Art/Animations/Pistol/pistol strafe.fbx
-  artifactKey: Guid(cdac0e003e99ece31b50fff9198920b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Art/Animations/Pistol/pistol strafe.fbx using Guid(cdac0e003e99ece31b50fff9198920b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4e20c0e84c516ec0a6284a3e9e952eac') in 0.004808214 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 136
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Art/Animations/Pistol/pistol walk backward arc (2).fbx
-  artifactKey: Guid(971a37ff0866995d58d572c0d1788610) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Art/Animations/Pistol/pistol walk backward arc (2).fbx using Guid(971a37ff0866995d58d572c0d1788610) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'df424355829a31df529d156e67dcf9ac') in 0.005139372 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 136
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Art/Animations/Pistol/pistol walk arc.fbx
-  artifactKey: Guid(095b482bf0060c920b6c25f45c1bcc86) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Art/Animations/Pistol/pistol walk arc.fbx using Guid(095b482bf0060c920b6c25f45c1bcc86) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a398c202ee5b8d32d6bb15fa37266050') in 0.007762037 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 136
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.851487 seconds.
-  path: Assets/Art/Animations/Rifle/rifle jump.fbx
-  artifactKey: Guid(f4b642c6e78717eb4bbd1f2531ce0d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Animations/Rifle/rifle jump.fbx using Guid(f4b642c6e78717eb4bbd1f2531ce0d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b281f07f683b93124cfa766ede0f057') in 0.002444647 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Art/Animations/Rifle/rifle run.fbx
-  artifactKey: Guid(59b81e91f52b66c2c92e490f92835f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Animations/Rifle/rifle run.fbx using Guid(59b81e91f52b66c2c92e490f92835f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '854e11a8da5c2146d6731354dc82997c') in 0.002052699 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Art/Animations/Rifle/walking backwards.fbx
-  artifactKey: Guid(b9ac102a214ad5af7af12052bd4dbe29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Animations/Rifle/walking backwards.fbx using Guid(b9ac102a214ad5af7af12052bd4dbe29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aee066db8d6e8f15e4a2823f04776c1e') in 0.002181338 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.986894 seconds.
-  path: Assets/Art/Animations/Rifle/rifle jump.fbx
-  artifactKey: Guid(f4b642c6e78717eb4bbd1f2531ce0d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Animations/Rifle/rifle jump.fbx using Guid(f4b642c6e78717eb4bbd1f2531ce0d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd55eb3f1e22fe5804ad13078065d88b0') in 0.002318607 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Art/Animations/Rifle/strafe left.fbx
-  artifactKey: Guid(6aa2c66a7d57e35248e3efc9930d1750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Animations/Rifle/strafe left.fbx using Guid(6aa2c66a7d57e35248e3efc9930d1750) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bce8ca50ef71ad3e266152db9aebe518') in 0.002347337 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Art/Animations/Rifle/walking backwards.fbx
-  artifactKey: Guid(b9ac102a214ad5af7af12052bd4dbe29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Animations/Rifle/walking backwards.fbx using Guid(b9ac102a214ad5af7af12052bd4dbe29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20351fc2171033cb2d71622ea74dc43a') in 0.002349848 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.869862 seconds.
-  path: Assets/Art/Animations/Rifle/strafe (2).fbx
-  artifactKey: Guid(29c2c4b262aa08682862940f903ae0ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Art/Animations/Rifle/strafe (2).fbx using Guid(29c2c4b262aa08682862940f903ae0ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7d9dc31d15d9edcccd5b538b32a6cab4') in 0.006162636 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 136
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Art/Animations/Rifle/walking.fbx
-  artifactKey: Guid(f01821e3befc879248616bc15845730d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Art/Animations/Rifle/walking.fbx using Guid(f01821e3befc879248616bc15845730d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1fa1e0e531f19c0e80d0aeee01db4430') in 0.007917317 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 136
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Art/Animations/Rifle/hit reaction.fbx
-  artifactKey: Guid(34470c56aa7c9c857bf6e2526e6d0579) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Art/Animations/Rifle/hit reaction.fbx using Guid(34470c56aa7c9c857bf6e2526e6d0579) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd574df30c53ff4c376eb7a6e1be40e12') in 0.004981493 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 136
-
+Prepare: number of updated asset objects reloaded= 0
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

@@ -49,8 +49,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/UnityTechnologies/EffectExamples/Shared/Scripts/ParticleExamples.cs" />
-    <Compile Include="Assets/ElmanGameDevTools/FirstPersonControllerPro/Scripts/PlayerSystem/PlayerMusic.cs" />
-    <Compile Include="Assets/ElmanGameDevTools/FirstPersonControllerPro/Scripts/PlayerSystem/PlayerController.cs" />
     <Compile Include="Assets/Scripts/BeerBottle.cs" />
     <Compile Include="Assets/Scripts/HUDManager.cs" />
     <Compile Include="Assets/UnityTechnologies/EffectExamples/Shared/Scripts/ParticleCollision.cs" />
@@ -69,7 +67,6 @@
     <Compile Include="Assets/Scripts/WeaponManager.cs" />
     <Compile Include="Assets/UnityTechnologies/EffectExamples/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/Scripts/AmmoBox.cs" />
-    <Compile Include="Assets/ElmanGameDevTools/FirstPersonControllerPro/Scripts/VisualEffects/RGBMaterialEffect.cs" />
     <Compile Include="Assets/UnityTechnologies/EffectExamples/Shared/Scripts/GunShoot.cs" />
     <Compile Include="Assets/Scripts/Weapon.cs" />
     <Compile Include="Assets/Scripts/MouseMovement.cs" />

@@ -11,9 +11,7 @@ private CharacterController controller;
     public Transform groundCheck;
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
-
     Vector3 velocity;
-
     bool isGrounded;
     bool isMoving;
 
@@ -43,6 +41,7 @@ private CharacterController controller;
 
         //Move Player
         controller.Move(move * speed * Time.deltaTime);
+        
 
         //Check If Player Can Jump
         if(Input.GetButtonDown("Jump") && isGrounded)
